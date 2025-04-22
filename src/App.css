@@ -79,6 +79,7 @@ body {
   box-shadow: var(--shadow);
   position: relative;
   z-index: 10;
+  text-align: center; 
 }
 
 .App-header h1 {
@@ -86,12 +87,15 @@ body {
   font-size: 1.75rem;
   font-weight: 600;
   letter-spacing: -0.025em;
+  color: white; 
 }
 
 .App-header p {
   margin: 0.25rem 0 0;
   font-size: 0.875rem;
   opacity: 0.9;
+  color: white; 
+  text-align: center; 
 }
 
 /* Main content area */

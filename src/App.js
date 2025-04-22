@@ -1,23 +1,19 @@
 import React from 'react';
 import './App.css';
-import AcademicPaperVisualization from './components/AcademicPaperVisualization';
+import PaperSearchContainer from './components/PaperSearchContainer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="container">
-          <h1>Academic Paper Visualization</h1>
-          <p>Interactive exploration and analysis of research papers</p>
-        </div>
+        <h1>Academic Paper Explorer</h1>
+        <p>Search, visualize and discover academic papers</p>
       </header>
       <main className="App-main">
-        <AcademicPaperVisualization />
+        <PaperSearchContainer />
       </main>
       <footer className="App-footer">
-        <div className="container">
-          <p>© {new Date().getFullYear()} Academic Paper Visualization Project</p>
-        </div>
+        <p>© {new Date().getFullYear()} Academic Paper Explorer. All rights reserved.</p>
       </footer>
     </div>
   );
