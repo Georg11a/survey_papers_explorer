@@ -1222,13 +1222,6 @@ useEffect(() => {
         </div>
       </div>
 
-      {/* Top Search Results Section */}
-      <TopSearchResults 
-        searchResults={searchResults}
-        onPaperSelect={setSelectedPaper}
-      />
-
-      
       {/* Error message display */}
       {error && (
         <div className="error-message">
@@ -1274,6 +1267,12 @@ useEffect(() => {
           </div>
         </div>
       </div>
+      
+      {/* MODIFIED: Moved Top Search Results below main content */}
+      <TopSearchResults 
+        searchResults={searchResults}
+        onPaperSelect={setSelectedPaper}
+      />
       
       {/* Render highlighted papers */}
       {papersHighlighted.length > 0 && (
